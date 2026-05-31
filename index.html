@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1a1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="2kg Starter">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='24'%3E👑%3C/text%3E%3C/svg%3E">
+  <title>2kg Starter Guide — MO DIAMOND</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
+    :root {
+      --bg: #1a1a1a; --bg-card: #222; --text: rgba(255,255,255,0.85); --text-muted: rgba(255,255,255,0.45);
+      --gold: #d4af37; --gold-light: #e8c95a; --border: rgba(255,255,255,0.08);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg); color: var(--text); font-family: 'Inter', sans-serif;
+      line-height: 1.7; -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 640px; margin: 0 auto; padding: 48px 24px; }
+    h1, h2, h3 { font-family: 'Cormorant Garamond', serif; font-weight: 700; color: var(--gold-light); }
+    p { font-size: 15px; color: var(--text); margin-bottom: 16px; }
+    .muted { color: var(--text-muted); font-size: 13px; }
+    .gold { color: var(--gold); }
+
+    /* Hero */
+    .hero { text-align: center; margin-bottom: 48px; }
+    .hero .crown { font-size: 48px; margin-bottom: 8px; }
+    .hero h1 { font-size: 36px; letter-spacing: 1px; }
+    .hero .sub { font-size: 14px; color: var(--text-muted); font-style: italic; margin-top: 4px; }
+    .social { display: flex; gap: 14px; justify-content: center; margin-top: 14px; font-size: 13px; }
+    .social a { color: var(--text-muted); text-decoration: none; }
+    .social a:hover { color: var(--gold); }
+
+    /* Sections */
+    .sec { margin-bottom: 40px; }
+    .sec h2 { font-size: 26px; margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    .sec h3 { font-size: 18px; margin: 20px 0 4px; }
+    .step { display: flex; gap: 14px; margin-bottom: 16px; }
+    .step-num { flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; background: var(--gold); color: #1a1a1a; font-weight: 700; font-size: 14px; display: flex; align-items: center; justify-content: center; margin-top: 2px; }
+    .step p { margin-bottom: 0; font-size: 14px; }
+
+    /* Card */
+    .card {
+      background: var(--bg-card); border-left: 3px solid var(--gold); border-radius: 6px;
+      padding: 24px; margin: 20px 0;
+    }
+    .card h3 { margin: 0 0 4px; }
+    .card p { margin-bottom: 0; font-size: 14px; }
+    .card .big { font-size: 22px; font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--gold-light); }
+
+    /* Quote */
+    .quote {
+      text-align: center; padding: 32px 24px; margin: 32px 0;
+      border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    }
+    .quote p { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 20px; color: var(--gold-light); margin-bottom: 8px; }
+    .quote small { color: var(--text-muted); font-size: 13px; }
+
+    /* Footer */
+    .footer { text-align: center; padding-top: 32px; border-top: 1px solid var(--border); }
+    .footer p { font-size: 13px; margin-bottom: 8px; }
+    .footer .social { margin-top: 10px; }
+    .footer .social a { color: var(--gold); }
+    .footer .social a:hover { text-decoration: underline; }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      .wrap { padding: 32px 18px; }
+      .hero h1 { font-size: 28px; }
+      .sec h2 { font-size: 22px; }
+      .quote p { font-size: 17px; }
+    }
+    @media (max-width: 400px) {
+      .wrap { padding: 24px 14px; }
+      .hero h1 { font-size: 24px; }
+      .hero .crown { font-size: 36px; }
+      .step { gap: 10px; }
+      .step-num { width: 28px; height: 28px; font-size: 12px; }
+      .card { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="crown">👑</div>
+      <h1>2kg Starter Guide</h1>
+      <p class="sub">Start your first 2kg this week. Free.</p>
+      <div class="social">
+        <a href="https://instagram.com/modiamond16" target="_blank">📷 IG</a>
+        <a href="https://youtube.com/@modiamond16" target="_blank">▶ YT</a>
+        <a href="https://tiktok.com/@modiamond16" target="_blank">🎵 TikTok</a>
+      </div>
+    </div>
+
+    <!-- Philosophy -->
+    <div class="sec">
+      <h2>Why 2kg Beats 20kg</h2>
+      <p>Big goals trigger survival mode — your metabolism slows, hunger spikes, and you crash before you cross the finish line.<br><br>2kg flies under the radar. No alarm bells. Just steady, repeatable progress.</p>
+      <p class="muted">20kg goal → steep up then steep down (crash &amp; rebound)<br>2kg increments → steady upward staircase</p>
+    </div>
+
+    <!-- 3 Steps -->
+    <div class="sec">
+      <h2>Your First 2kg — 3 Steps</h2>
+
+      <div class="step">
+        <div class="step-num">1</div>
+        <div><h3>Measure</h3><p>Weight, waist, photo. Know where you stand before you move.</p></div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div><h3>Target</h3><p>Same HIIT routine, same nutrition, two weeks. One 2kg — that's it.</p></div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div><h3>Hit &amp; Recalibrate</h3><p>Hit the target. Adjust your numbers. Go again. Every 2kg builds on the last.</p></div>
+      </div>
+
+      <p class="muted" style="margin-top:8px;">2kg at a time. No rush. No retreat. Just progress.</p>
+    </div>
+
+    <!-- King's 50 -->
+    <div class="card">
+      <h3>👑 The King's 50</h3>
+      <p>50 pushups. Every day. No negotiation.<br>This is your daily anchor — the one thing you do before anything else.<br><br>Start today. Drop 👑 in the comments when you're done.</p>
+    </div>
+
+    <!-- Superpower -->
+    <div class="quote">
+      <p>"I will show you how to transform your body 2kg at a time — without giving up your time, your culture, or your sanity."</p>
+      <small>— MO DIAMOND</small>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>Start your first 2kg this week.</p>
+      <p class="muted">Follow <strong class="gold">@modiamond16</strong> for daily HIIT, The King's 50, and your next 2kg.</p>
+      <div class="social">
+        <a href="https://instagram.com/modiamond16" target="_blank">📷 Instagram</a>
+        <a href="https://youtube.com/@modiamond16" target="_blank">▶ YouTube</a>
+        <a href="https://tiktok.com/@modiamond16" target="_blank">🎵 TikTok</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
